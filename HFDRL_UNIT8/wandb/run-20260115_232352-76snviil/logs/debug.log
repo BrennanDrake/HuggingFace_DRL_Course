@@ -1,0 +1,136 @@
+2026-01-15 23:23:52,875 INFO    MainThread:73298 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-01-15 23:23:52,875 INFO    MainThread:73298 [wandb_setup.py:_flush():81] Configure stats pid to 73298
+2026-01-15 23:23:52,875 INFO    MainThread:73298 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-01-15 23:23:52,875 INFO    MainThread:73298 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/wandb/run-20260115_232352-76snviil/logs/debug.log
+2026-01-15 23:23:52,875 INFO    MainThread:73298 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/wandb/run-20260115_232352-76snviil/logs/debug-internal.log
+2026-01-15 23:23:52,876 INFO    MainThread:73298 [wandb_init.py:init():844] calling init triggers
+2026-01-15 23:23:52,876 INFO    MainThread:73298 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'exp_name': 'ppo', 'gym_id': 'LunarLander-v3', 'learning_rate': 0.00025, 'seed': 1, 'total_timesteps': 25000, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'cleanRL', 'wandb_entity': None, '_wandb': {'code_path': 'code/HFDRL_UNIT8/ppo.py'}}
+2026-01-15 23:23:52,876 INFO    MainThread:73298 [wandb_init.py:init():892] starting backend
+2026-01-15 23:23:53,117 INFO    MainThread:73298 [wandb_init.py:init():895] sending inform_init request
+2026-01-15 23:23:53,120 INFO    MainThread:73298 [wandb_init.py:init():903] backend started and connected
+2026-01-15 23:23:53,131 INFO    MainThread:73298 [wandb_init.py:init():973] updated telemetry
+2026-01-15 23:23:53,134 INFO    MainThread:73298 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-01-15 23:23:53,590 INFO    MainThread:73298 [wandb_init.py:init():1044] starting run threads in backend
+2026-01-15 23:23:53,657 INFO    MainThread:73298 [wandb_run.py:_console_start():2529] atexit reg
+2026-01-15 23:23:53,657 INFO    MainThread:73298 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-01-15 23:23:53,657 INFO    MainThread:73298 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-01-15 23:23:53,657 INFO    MainThread:73298 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-01-15 23:23:53,660 INFO    MainThread:73298 [wandb_init.py:init():1084] run started, returning control to user process
+2026-01-15 23:23:53,660 INFO    MainThread:73298 [wandb_run.py:_tensorboard_callback():1615] tensorboard callback: runs/LunarLander-v3__ppo__1__1768548232, True
+2026-01-15 23:23:54,557 INFO    wandb-AsyncioManager-main:73298 [service_client.py:_forward_responses():80] Reached EOF.
+2026-01-15 23:23:54,557 INFO    wandb-AsyncioManager-main:73298 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.
+2026-01-15 23:24:04,373 ERROR   MainThread:73298 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2456, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1609, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data, nowait=True)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 789, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 184, in GetCurrentTime
+    self.FromDatetime(datetime.datetime.now(tz=datetime.timezone.utc))
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 283, in FromDatetime
+    seconds = calendar.timegm(dt.utctimetuple())
+ImportError: sys.meta_path is None, Python is likely shutting down
+2026-01-15 23:24:04,374 ERROR   MainThread:73298 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2456, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1609, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data, nowait=True)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 789, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 184, in GetCurrentTime
+    self.FromDatetime(datetime.datetime.now(tz=datetime.timezone.utc))
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 283, in FromDatetime
+    seconds = calendar.timegm(dt.utctimetuple())
+ImportError: sys.meta_path is None, Python is likely shutting down
+2026-01-15 23:24:04,374 ERROR   MainThread:73298 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2456, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1609, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data, nowait=True)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 789, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 184, in GetCurrentTime
+    self.FromDatetime(datetime.datetime.now(tz=datetime.timezone.utc))
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 283, in FromDatetime
+    seconds = calendar.timegm(dt.utctimetuple())
+ImportError: sys.meta_path is None, Python is likely shutting down
+2026-01-15 23:24:04,374 ERROR   MainThread:73298 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2456, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1609, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data, nowait=True)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 789, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 184, in GetCurrentTime
+    self.FromDatetime(datetime.datetime.now(tz=datetime.timezone.utc))
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 283, in FromDatetime
+    seconds = calendar.timegm(dt.utctimetuple())
+ImportError: sys.meta_path is None, Python is likely shutting down
+2026-01-15 23:24:04,375 ERROR   MainThread:73298 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2456, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1609, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data, nowait=True)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 789, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 184, in GetCurrentTime
+    self.FromDatetime(datetime.datetime.now(tz=datetime.timezone.utc))
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 283, in FromDatetime
+    seconds = calendar.timegm(dt.utctimetuple())
+ImportError: sys.meta_path is None, Python is likely shutting down
+2026-01-15 23:24:04,375 ERROR   MainThread:73298 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2456, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1609, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data, nowait=True)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 789, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 184, in GetCurrentTime
+    self.FromDatetime(datetime.datetime.now(tz=datetime.timezone.utc))
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/google/protobuf/internal/well_known_types.py", line 283, in FromDatetime
+    seconds = calendar.timegm(dt.utctimetuple())
+ImportError: sys.meta_path is None, Python is likely shutting down

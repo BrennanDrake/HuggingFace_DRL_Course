@@ -1,0 +1,15 @@
+{"time":"2026-01-15T22:58:34.481771303-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T22:58:34.710280045-08:00","level":"INFO","msg":"stream: created new stream","id":"a2jubsic"}
+{"time":"2026-01-15T22:58:34.710325286-08:00","level":"INFO","msg":"handler: started","stream_id":"a2jubsic"}
+{"time":"2026-01-15T22:58:34.710412107-08:00","level":"INFO","msg":"stream: started","id":"a2jubsic"}
+{"time":"2026-01-15T22:58:34.710427457-08:00","level":"INFO","msg":"writer: started","stream_id":"a2jubsic"}
+{"time":"2026-01-15T22:58:34.710430927-08:00","level":"INFO","msg":"sender: started","stream_id":"a2jubsic"}
+{"time":"2026-01-15T22:58:34.939717203-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T22:58:35.189941124-08:00","level":"INFO","msg":"stream: closing","id":"a2jubsic"}
+{"time":"2026-01-15T22:58:45.004510538-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T22:58:45.004564378-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546713\")","namespace":""}
+{"time":"2026-01-15T22:58:45.004788242-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546713/events.out.tfevents.1768546715.brennan-dev.58753.0","runPath":"runs/LunarLander-v3__ppo__1__1768546713/events.out.tfevents.1768546715.brennan-dev.58753.0"}
+{"time":"2026-01-15T22:58:45.403121102-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T22:58:45.663200015-08:00","level":"INFO","msg":"handler: closed","stream_id":"a2jubsic"}
+{"time":"2026-01-15T22:58:45.663280037-08:00","level":"INFO","msg":"sender: closed","stream_id":"a2jubsic"}
+{"time":"2026-01-15T22:58:45.663286867-08:00","level":"INFO","msg":"stream: closed","id":"a2jubsic"}

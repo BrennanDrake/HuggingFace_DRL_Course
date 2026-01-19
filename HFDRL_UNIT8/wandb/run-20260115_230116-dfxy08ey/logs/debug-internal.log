@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:01:17.116786036-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:01:17.333080748-08:00","level":"INFO","msg":"stream: created new stream","id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:17.333159179-08:00","level":"INFO","msg":"handler: started","stream_id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:17.333278251-08:00","level":"INFO","msg":"stream: started","id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:17.333295831-08:00","level":"INFO","msg":"writer: started","stream_id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:17.333309561-08:00","level":"INFO","msg":"sender: started","stream_id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:17.559838699-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:01:19.650787718-08:00","level":"INFO","msg":"stream: closing","id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:27.62736264-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:01:27.627417681-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546876\")","namespace":""}
+{"time":"2026-01-15T23:01:27.627655454-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546876/events.out.tfevents.1768546877.brennan-dev.60957.0","runPath":"runs/LunarLander-v3__ppo__1__1768546876/events.out.tfevents.1768546877.brennan-dev.60957.0"}
+{"time":"2026-01-15T23:01:27.993690335-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:01:28.137061468-08:00","level":"INFO","msg":"handler: closed","stream_id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:28.137153579-08:00","level":"INFO","msg":"sender: closed","stream_id":"dfxy08ey"}
+{"time":"2026-01-15T23:01:28.13717183-08:00","level":"INFO","msg":"stream: closed","id":"dfxy08ey"}

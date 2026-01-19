@@ -1,0 +1,17 @@
+Exception ignored in: <function monitor.<locals>.del_ at 0x72541048c280>
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 82, in del_
+    self.orig_close()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 391, in close
+    super().close()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+AttributeError: 'RecordVideo' object has no attribute 'env'
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 75, in <module>
+    env = gym.wrappers.RecordVideo(env, "videos", **video_kwargs)
+TypeError: RecordVideo.__init__() got multiple values for argument 'video_folder'
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 75, in <module>
+    env = gym.wrappers.RecordVideo(env, "videos", **video_kwargs)
+TypeError: RecordVideo.__init__() got multiple values for argument 'video_folder'

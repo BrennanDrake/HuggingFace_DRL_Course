@@ -1,0 +1,10 @@
+/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:293: UserWarning: [33mWARN: Overwriting existing videos at /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/videos/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 107, in <module>
+    print(f"episodic return {item['episode']['r']}")
+NameError: name 'item' is not defined. Did you mean: 'iter'?
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 107, in <module>
+    print(f"episodic return {item['episode']['r']}")
+NameError: name 'item' is not defined. Did you mean: 'iter'?

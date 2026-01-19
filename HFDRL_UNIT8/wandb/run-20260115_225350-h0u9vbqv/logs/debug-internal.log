@@ -1,0 +1,15 @@
+{"time":"2026-01-15T22:53:50.519722147-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T22:53:50.74753686-08:00","level":"INFO","msg":"stream: created new stream","id":"h0u9vbqv"}
+{"time":"2026-01-15T22:53:50.747608781-08:00","level":"INFO","msg":"handler: started","stream_id":"h0u9vbqv"}
+{"time":"2026-01-15T22:53:50.747723223-08:00","level":"INFO","msg":"stream: started","id":"h0u9vbqv"}
+{"time":"2026-01-15T22:53:50.747744714-08:00","level":"INFO","msg":"writer: started","stream_id":"h0u9vbqv"}
+{"time":"2026-01-15T22:53:50.747748874-08:00","level":"INFO","msg":"sender: started","stream_id":"h0u9vbqv"}
+{"time":"2026-01-15T22:53:51.12186776-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T22:53:51.518442916-08:00","level":"INFO","msg":"stream: closing","id":"h0u9vbqv"}
+{"time":"2026-01-15T22:54:01.188759453-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T22:54:01.188818574-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546429\")","namespace":""}
+{"time":"2026-01-15T22:54:01.189103039-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546429/events.out.tfevents.1768546431.brennan-dev.56065.0","runPath":"runs/LunarLander-v3__ppo__1__1768546429/events.out.tfevents.1768546431.brennan-dev.56065.0"}
+{"time":"2026-01-15T22:54:01.551305506-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T22:54:01.720162072-08:00","level":"INFO","msg":"handler: closed","stream_id":"h0u9vbqv"}
+{"time":"2026-01-15T22:54:01.720227903-08:00","level":"INFO","msg":"sender: closed","stream_id":"h0u9vbqv"}
+{"time":"2026-01-15T22:54:01.720233543-08:00","level":"INFO","msg":"stream: closed","id":"h0u9vbqv"}

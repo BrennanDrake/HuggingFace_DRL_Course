@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:21:10.969011592-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:21:11.194317751-08:00","level":"INFO","msg":"stream: created new stream","id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:11.194366482-08:00","level":"INFO","msg":"handler: started","stream_id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:11.194457173-08:00","level":"INFO","msg":"stream: started","id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:11.194469173-08:00","level":"INFO","msg":"writer: started","stream_id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:11.194473283-08:00","level":"INFO","msg":"sender: started","stream_id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:11.363475161-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:21:11.618477063-08:00","level":"INFO","msg":"stream: closing","id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:21.43029497-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:21:21.430371231-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768548069\")","namespace":""}
+{"time":"2026-01-15T23:21:21.430614934-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768548069/events.out.tfevents.1768548071.brennan-dev.71862.0","runPath":"runs/LunarLander-v3__ppo__1__1768548069/events.out.tfevents.1768548071.brennan-dev.71862.0"}
+{"time":"2026-01-15T23:21:21.820917333-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:21:21.967857712-08:00","level":"INFO","msg":"handler: closed","stream_id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:21.967940093-08:00","level":"INFO","msg":"sender: closed","stream_id":"i2yk78vc"}
+{"time":"2026-01-15T23:21:21.967945863-08:00","level":"INFO","msg":"stream: closed","id":"i2yk78vc"}

@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:05:30.879970133-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:05:31.103452678-08:00","level":"INFO","msg":"stream: created new stream","id":"uqqi5026"}
+{"time":"2026-01-15T23:05:31.103500999-08:00","level":"INFO","msg":"handler: started","stream_id":"uqqi5026"}
+{"time":"2026-01-15T23:05:31.10355708-08:00","level":"INFO","msg":"stream: started","id":"uqqi5026"}
+{"time":"2026-01-15T23:05:31.10357482-08:00","level":"INFO","msg":"writer: started","stream_id":"uqqi5026"}
+{"time":"2026-01-15T23:05:31.10357329-08:00","level":"INFO","msg":"sender: started","stream_id":"uqqi5026"}
+{"time":"2026-01-15T23:05:31.397355307-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:05:33.494879013-08:00","level":"INFO","msg":"stream: closing","id":"uqqi5026"}
+{"time":"2026-01-15T23:05:41.465866249-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:05:41.465915859-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768547129\")","namespace":""}
+{"time":"2026-01-15T23:05:41.466168732-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768547129/events.out.tfevents.1768547131.brennan-dev.63116.0","runPath":"runs/LunarLander-v3__ppo__1__1768547129/events.out.tfevents.1768547131.brennan-dev.63116.0"}
+{"time":"2026-01-15T23:05:41.83896256-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:05:41.987139336-08:00","level":"INFO","msg":"handler: closed","stream_id":"uqqi5026"}
+{"time":"2026-01-15T23:05:41.987234387-08:00","level":"INFO","msg":"sender: closed","stream_id":"uqqi5026"}
+{"time":"2026-01-15T23:05:41.987241997-08:00","level":"INFO","msg":"stream: closed","id":"uqqi5026"}

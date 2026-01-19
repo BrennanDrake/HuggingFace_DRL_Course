@@ -1,0 +1,15 @@
+{"time":"2026-01-15T22:58:49.237900935-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T22:58:49.463865472-08:00","level":"INFO","msg":"stream: created new stream","id":"evec9qly"}
+{"time":"2026-01-15T22:58:49.463925633-08:00","level":"INFO","msg":"handler: started","stream_id":"evec9qly"}
+{"time":"2026-01-15T22:58:49.464192436-08:00","level":"INFO","msg":"stream: started","id":"evec9qly"}
+{"time":"2026-01-15T22:58:49.464212757-08:00","level":"INFO","msg":"sender: started","stream_id":"evec9qly"}
+{"time":"2026-01-15T22:58:49.464216077-08:00","level":"INFO","msg":"writer: started","stream_id":"evec9qly"}
+{"time":"2026-01-15T22:58:49.738620117-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T22:58:49.982981123-08:00","level":"INFO","msg":"stream: closing","id":"evec9qly"}
+{"time":"2026-01-15T22:58:59.803081852-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T22:58:59.803147203-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546728\")","namespace":""}
+{"time":"2026-01-15T22:58:59.803390176-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546728/events.out.tfevents.1768546729.brennan-dev.59002.0","runPath":"runs/LunarLander-v3__ppo__1__1768546728/events.out.tfevents.1768546729.brennan-dev.59002.0"}
+{"time":"2026-01-15T22:59:00.170857215-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T22:59:00.366721295-08:00","level":"INFO","msg":"handler: closed","stream_id":"evec9qly"}
+{"time":"2026-01-15T22:59:00.366791856-08:00","level":"INFO","msg":"sender: closed","stream_id":"evec9qly"}
+{"time":"2026-01-15T22:59:00.366798066-08:00","level":"INFO","msg":"stream: closed","id":"evec9qly"}

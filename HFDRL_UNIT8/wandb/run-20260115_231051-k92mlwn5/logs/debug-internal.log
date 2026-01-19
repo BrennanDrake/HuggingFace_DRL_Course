@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:10:51.628515988-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:10:51.846754674-08:00","level":"INFO","msg":"stream: created new stream","id":"k92mlwn5"}
+{"time":"2026-01-15T23:10:51.846800695-08:00","level":"INFO","msg":"handler: started","stream_id":"k92mlwn5"}
+{"time":"2026-01-15T23:10:51.846931986-08:00","level":"INFO","msg":"stream: started","id":"k92mlwn5"}
+{"time":"2026-01-15T23:10:51.846953077-08:00","level":"INFO","msg":"sender: started","stream_id":"k92mlwn5"}
+{"time":"2026-01-15T23:10:51.846955647-08:00","level":"INFO","msg":"writer: started","stream_id":"k92mlwn5"}
+{"time":"2026-01-15T23:10:52.063526754-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:10:52.641997194-08:00","level":"INFO","msg":"stream: closing","id":"k92mlwn5"}
+{"time":"2026-01-15T23:11:02.131355887-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:11:02.131409258-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768547450\")","namespace":""}
+{"time":"2026-01-15T23:11:02.131671881-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768547450/events.out.tfevents.1768547452.brennan-dev.66432.0","runPath":"runs/LunarLander-v3__ppo__1__1768547450/events.out.tfevents.1768547452.brennan-dev.66432.0"}
+{"time":"2026-01-15T23:11:02.499223057-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:11:03.075904769-08:00","level":"INFO","msg":"handler: closed","stream_id":"k92mlwn5"}
+{"time":"2026-01-15T23:11:03.075953089-08:00","level":"INFO","msg":"sender: closed","stream_id":"k92mlwn5"}
+{"time":"2026-01-15T23:11:03.07596339-08:00","level":"INFO","msg":"stream: closed","id":"k92mlwn5"}

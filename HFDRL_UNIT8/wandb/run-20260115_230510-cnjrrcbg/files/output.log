@@ -1,0 +1,47 @@
+/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:293: UserWarning: [33mWARN: Overwriting existing videos at /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/videos/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+episodic return: -124.69197099308818
+episodic return: -315.47954649340403
+episodic return: 7.175346913930653
+episodic return: -109.48076525806049
+episodic return: -15.388619741727169
+episodic return: -205.84535416947304
+episodic return: -189.30371117719062
+episodic return: -130.0383114531987
+episodic return: -99.75005192118067
+episodic return: -72.8102463566969
+episodic return: -116.0293572476545
+episodic return: -378.63767634120944
+episodic return: -325.3938371831513
+episodic return: -88.74249392326162
+episodic return: -175.86725918568493
+episodic return: -46.797787538828956
+episodic return: -55.66304034365563
+episodic return: -123.2612138304322
+episodic return: -85.55808785916362
+episodic return: -412.32598041691006
+Exception ignored in: <function RecordVideo.__del__ at 0x71e3af3a6320>
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 433, in __del__
+    if len(self.recorded_frames) > 0:
+AttributeError: 'RecordVideo' object has no attribute 'recorded_frames'
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 94, in <module>
+    envs = gym.vector.SyncVectorEnv([make_env(args.gym_id)])
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 97, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 97, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 90, in thunk
+    env = gym.wrappers.RecordVideo(env, "videos", record_video_trigger=lambda t: t% 100 == 0)
+TypeError: RecordVideo.__init__() got an unexpected keyword argument 'record_video_trigger'
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 94, in <module>
+    envs = gym.vector.SyncVectorEnv([make_env(args.gym_id)])
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 97, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 97, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 90, in thunk
+    env = gym.wrappers.RecordVideo(env, "videos", record_video_trigger=lambda t: t% 100 == 0)
+TypeError: RecordVideo.__init__() got an unexpected keyword argument 'record_video_trigger'

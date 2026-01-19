@@ -1,0 +1,11 @@
+{"time":"2026-01-15T22:53:36.901545908-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T22:53:37.12485291-08:00","level":"INFO","msg":"stream: created new stream","id":"vr9a3v0t"}
+{"time":"2026-01-15T22:53:37.124926231-08:00","level":"INFO","msg":"handler: started","stream_id":"vr9a3v0t"}
+{"time":"2026-01-15T22:53:37.125062824-08:00","level":"INFO","msg":"stream: started","id":"vr9a3v0t"}
+{"time":"2026-01-15T22:53:37.125082834-08:00","level":"INFO","msg":"sender: started","stream_id":"vr9a3v0t"}
+{"time":"2026-01-15T22:53:37.125101164-08:00","level":"INFO","msg":"writer: started","stream_id":"vr9a3v0t"}
+{"time":"2026-01-15T22:53:37.36422808-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T22:53:37.608845237-08:00","level":"INFO","msg":"stream: closing","id":"vr9a3v0t"}
+{"time":"2026-01-15T22:53:47.429859129-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T22:53:47.42992228-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546415\")","namespace":""}
+{"time":"2026-01-15T22:53:47.430287296-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546415/events.out.tfevents.1768546417.brennan-dev.55828.0","runPath":"runs/LunarLander-v3__ppo__1__1768546415/events.out.tfevents.1768546417.brennan-dev.55828.0"}

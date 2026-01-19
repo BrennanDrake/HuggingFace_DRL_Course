@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 69, in <module>
+    env = preprocess_env(env)  # method with some other wrappers
+NameError: name 'preprocess_env' is not defined
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 69, in <module>
+    env = preprocess_env(env)  # method with some other wrappers
+NameError: name 'preprocess_env' is not defined

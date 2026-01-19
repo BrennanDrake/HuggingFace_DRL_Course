@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 313, in __init__
+    import moviepy  # noqa: F401
+ModuleNotFoundError: No module named 'moviepy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 75, in <module>
+    env = gym.wrappers.RecordVideo(env, **video_kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 315, in __init__
+    raise error.DependencyNotInstalled(
+gymnasium.error.DependencyNotInstalled: MoviePy is not installed, run `pip install "gymnasium[other]"`
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 313, in __init__
+    import moviepy  # noqa: F401
+ModuleNotFoundError: No module named 'moviepy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 75, in <module>
+    env = gym.wrappers.RecordVideo(env, **video_kwargs)
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 315, in __init__
+    raise error.DependencyNotInstalled(
+gymnasium.error.DependencyNotInstalled: MoviePy is not installed, run `pip install "gymnasium[other]"`

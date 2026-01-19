@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:23:53.122300542-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:23:53.358249746-08:00","level":"INFO","msg":"stream: created new stream","id":"76snviil"}
+{"time":"2026-01-15T23:23:53.358306757-08:00","level":"INFO","msg":"handler: started","stream_id":"76snviil"}
+{"time":"2026-01-15T23:23:53.358405238-08:00","level":"INFO","msg":"stream: started","id":"76snviil"}
+{"time":"2026-01-15T23:23:53.358418628-08:00","level":"INFO","msg":"writer: started","stream_id":"76snviil"}
+{"time":"2026-01-15T23:23:53.358419248-08:00","level":"INFO","msg":"sender: started","stream_id":"76snviil"}
+{"time":"2026-01-15T23:23:53.591623252-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:23:54.557108252-08:00","level":"INFO","msg":"stream: closing","id":"76snviil"}
+{"time":"2026-01-15T23:24:03.661571675-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:24:03.661640986-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768548232\")","namespace":""}
+{"time":"2026-01-15T23:24:03.661904349-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768548232/events.out.tfevents.1768548233.brennan-dev.73298.0","runPath":"runs/LunarLander-v3__ppo__1__1768548232/events.out.tfevents.1768548233.brennan-dev.73298.0"}
+{"time":"2026-01-15T23:24:04.055179439-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:24:04.196889211-08:00","level":"INFO","msg":"handler: closed","stream_id":"76snviil"}
+{"time":"2026-01-15T23:24:04.196952332-08:00","level":"INFO","msg":"sender: closed","stream_id":"76snviil"}
+{"time":"2026-01-15T23:24:04.196957742-08:00","level":"INFO","msg":"stream: closed","id":"76snviil"}

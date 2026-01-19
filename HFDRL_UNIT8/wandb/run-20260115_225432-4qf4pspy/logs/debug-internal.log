@@ -1,0 +1,15 @@
+{"time":"2026-01-15T22:54:32.361996322-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T22:54:32.603776471-08:00","level":"INFO","msg":"stream: created new stream","id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:32.603820782-08:00","level":"INFO","msg":"handler: started","stream_id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:32.604082886-08:00","level":"INFO","msg":"stream: started","id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:32.604120587-08:00","level":"INFO","msg":"sender: started","stream_id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:32.604145947-08:00","level":"INFO","msg":"writer: started","stream_id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:32.863922607-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T22:54:33.113305208-08:00","level":"INFO","msg":"stream: closing","id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:42.928871699-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T22:54:42.92893645-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546471\")","namespace":""}
+{"time":"2026-01-15T22:54:42.929168693-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546471/events.out.tfevents.1768546472.brennan-dev.56489.0","runPath":"runs/LunarLander-v3__ppo__1__1768546471/events.out.tfevents.1768546472.brennan-dev.56489.0"}
+{"time":"2026-01-15T22:54:43.310328989-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T22:54:43.425612336-08:00","level":"INFO","msg":"handler: closed","stream_id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:43.425692507-08:00","level":"INFO","msg":"sender: closed","stream_id":"4qf4pspy"}
+{"time":"2026-01-15T22:54:43.425698248-08:00","level":"INFO","msg":"stream: closed","id":"4qf4pspy"}

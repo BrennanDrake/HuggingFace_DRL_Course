@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:00:52.694752694-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:00:52.917484089-08:00","level":"INFO","msg":"stream: created new stream","id":"xroca93w"}
+{"time":"2026-01-15T23:00:52.917535819-08:00","level":"INFO","msg":"handler: started","stream_id":"xroca93w"}
+{"time":"2026-01-15T23:00:52.917638471-08:00","level":"INFO","msg":"stream: started","id":"xroca93w"}
+{"time":"2026-01-15T23:00:52.917653931-08:00","level":"INFO","msg":"sender: started","stream_id":"xroca93w"}
+{"time":"2026-01-15T23:00:52.917655201-08:00","level":"INFO","msg":"writer: started","stream_id":"xroca93w"}
+{"time":"2026-01-15T23:00:53.170448567-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:00:55.268522078-08:00","level":"INFO","msg":"stream: closing","id":"xroca93w"}
+{"time":"2026-01-15T23:01:03.239122963-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:01:03.239187053-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546851\")","namespace":""}
+{"time":"2026-01-15T23:01:03.253589856-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546851/events.out.tfevents.1768546853.brennan-dev.60502.0","runPath":"runs/LunarLander-v3__ppo__1__1768546851/events.out.tfevents.1768546853.brennan-dev.60502.0"}
+{"time":"2026-01-15T23:01:03.660836768-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:01:03.770662318-08:00","level":"INFO","msg":"handler: closed","stream_id":"xroca93w"}
+{"time":"2026-01-15T23:01:03.770723509-08:00","level":"INFO","msg":"sender: closed","stream_id":"xroca93w"}
+{"time":"2026-01-15T23:01:03.770730239-08:00","level":"INFO","msg":"stream: closed","id":"xroca93w"}

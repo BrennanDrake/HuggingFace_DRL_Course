@@ -1,0 +1,15 @@
+{"time":"2026-01-15T22:47:02.33359781-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T22:47:02.559842417-08:00","level":"INFO","msg":"stream: created new stream","id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:02.559914468-08:00","level":"INFO","msg":"handler: started","stream_id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:02.560327462-08:00","level":"INFO","msg":"stream: started","id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:02.560583595-08:00","level":"INFO","msg":"writer: started","stream_id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:02.560607755-08:00","level":"INFO","msg":"sender: started","stream_id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:02.783947761-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T22:47:03.076195088-08:00","level":"INFO","msg":"stream: closing","id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:12.850135027-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T22:47:12.850201608-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v2__ppo__1__1768546021\")","namespace":""}
+{"time":"2026-01-15T22:47:12.85045185-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v2__ppo__1__1768546021/events.out.tfevents.1768546022.brennan-dev.52409.0","runPath":"runs/LunarLander-v2__ppo__1__1768546021/events.out.tfevents.1768546022.brennan-dev.52409.0"}
+{"time":"2026-01-15T22:47:13.2819928-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T22:47:13.450547131-08:00","level":"INFO","msg":"handler: closed","stream_id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:13.450610092-08:00","level":"INFO","msg":"sender: closed","stream_id":"dxz8imrm"}
+{"time":"2026-01-15T22:47:13.450616962-08:00","level":"INFO","msg":"stream: closed","id":"dxz8imrm"}

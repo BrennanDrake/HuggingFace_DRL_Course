@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 66, in <module>
+    env = gym.make("LunarLander-v2")
+NameError: name 'gym' is not defined
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 66, in <module>
+    env = gym.make("LunarLander-v2")
+NameError: name 'gym' is not defined

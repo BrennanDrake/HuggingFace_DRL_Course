@@ -1,0 +1,37 @@
+/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:293: UserWarning: [33mWARN: Overwriting existing videos at /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/videos/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+episodic return: -290.3760149929564
+episodic return: -180.78674746278267
+episodic return: -120.67735357927486
+episodic return: -132.0300786949946
+episodic return: -229.3612965760715
+episodic return: -349.41973039148553
+episodic return: -329.22801415324125
+episodic return: -114.35968307713804
+episodic return: -83.01631617135045
+episodic return: -87.1671213878789
+episodic return: -346.90891418548017
+episodic return: -92.62225854543327
+episodic return: -115.20612808604801
+episodic return: -267.90220626596044
+episodic return: -264.3642020320992
+episodic return: -262.4946674123222
+episodic return: -117.1617823134303
+episodic return: -155.21353060151847
+episodic return: -185.15615637671078
+episodic return: -74.03752444332844
+episodic return: -132.32224778010112
+episodic return: -344.33863031863984
+episodic return: -90.13849902498781
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 84, in <module>
+    env.close()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 84, in <module>
+    env.close()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'

@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:19:41.729190918-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:19:41.959995358-08:00","level":"INFO","msg":"stream: created new stream","id":"2o2sh276"}
+{"time":"2026-01-15T23:19:41.960040179-08:00","level":"INFO","msg":"handler: started","stream_id":"2o2sh276"}
+{"time":"2026-01-15T23:19:41.96011959-08:00","level":"INFO","msg":"stream: started","id":"2o2sh276"}
+{"time":"2026-01-15T23:19:41.96013341-08:00","level":"INFO","msg":"writer: started","stream_id":"2o2sh276"}
+{"time":"2026-01-15T23:19:41.96015213-08:00","level":"INFO","msg":"sender: started","stream_id":"2o2sh276"}
+{"time":"2026-01-15T23:19:42.29470616-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:19:42.549663104-08:00","level":"INFO","msg":"stream: closing","id":"2o2sh276"}
+{"time":"2026-01-15T23:19:52.363323368-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:19:52.363385069-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768547980\")","namespace":""}
+{"time":"2026-01-15T23:19:52.363608392-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768547980/events.out.tfevents.1768547982.brennan-dev.71169.0","runPath":"runs/LunarLander-v3__ppo__1__1768547980/events.out.tfevents.1768547982.brennan-dev.71169.0"}
+{"time":"2026-01-15T23:19:52.792730176-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:19:52.949561632-08:00","level":"INFO","msg":"handler: closed","stream_id":"2o2sh276"}
+{"time":"2026-01-15T23:19:52.949646723-08:00","level":"INFO","msg":"sender: closed","stream_id":"2o2sh276"}
+{"time":"2026-01-15T23:19:52.949654113-08:00","level":"INFO","msg":"stream: closed","id":"2o2sh276"}

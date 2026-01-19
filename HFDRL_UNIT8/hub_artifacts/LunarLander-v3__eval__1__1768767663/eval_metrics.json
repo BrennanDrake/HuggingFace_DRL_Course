@@ -1,0 +1,22 @@
+{
+  "avg_length": 169.4,
+  "avg_return": 288.2681167988129,
+  "deterministic": true,
+  "episode_lengths": [
+    171,
+    158,
+    174,
+    178,
+    166
+  ],
+  "episode_returns": [
+    276.313566880282,
+    263.5369168789374,
+    315.2990075974473,
+    285.4245154290927,
+    300.766577208305
+  ],
+  "gym_id": "LunarLander-v3",
+  "num_episodes": 5,
+  "seed": 1
+}

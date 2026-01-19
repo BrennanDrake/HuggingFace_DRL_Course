@@ -1,0 +1,15 @@
+{"time":"2026-01-15T23:25:55.719375102-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:25:55.949749494-08:00","level":"INFO","msg":"stream: created new stream","id":"dzjwzf15"}
+{"time":"2026-01-15T23:25:55.949794434-08:00","level":"INFO","msg":"handler: started","stream_id":"dzjwzf15"}
+{"time":"2026-01-15T23:25:55.949858075-08:00","level":"INFO","msg":"stream: started","id":"dzjwzf15"}
+{"time":"2026-01-15T23:25:55.949872035-08:00","level":"INFO","msg":"writer: started","stream_id":"dzjwzf15"}
+{"time":"2026-01-15T23:25:55.949875405-08:00","level":"INFO","msg":"sender: started","stream_id":"dzjwzf15"}
+{"time":"2026-01-15T23:25:56.245676352-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:26:04.390295454-08:00","level":"INFO","msg":"stream: closing","id":"dzjwzf15"}
+{"time":"2026-01-15T23:26:06.312670396-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:26:06.312726126-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768548354\")","namespace":""}
+{"time":"2026-01-15T23:26:06.312956259-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768548354/events.out.tfevents.1768548356.brennan-dev.75253.0","runPath":"runs/LunarLander-v3__ppo__1__1768548354/events.out.tfevents.1768548356.brennan-dev.75253.0"}
+{"time":"2026-01-15T23:26:06.699765772-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:26:07.093550448-08:00","level":"INFO","msg":"handler: closed","stream_id":"dzjwzf15"}
+{"time":"2026-01-15T23:26:07.093659199-08:00","level":"INFO","msg":"sender: closed","stream_id":"dzjwzf15"}
+{"time":"2026-01-15T23:26:07.093664699-08:00","level":"INFO","msg":"stream: closed","id":"dzjwzf15"}

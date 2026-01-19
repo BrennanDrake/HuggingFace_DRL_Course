@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hfdrl-unit8"
+version = "0.1.0"
+description = ""
+authors = ["Carvinaxe3 <81040749+BrennanDrake@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.15"
+gym = "^0.26.2"
+stable-baselines3 = "^2.7.1"
+tensorboard = "^2.20.0"
+wandb = "^0.24.0"
+torch = "^2.9.1"
+
+
+[build-system]
+requires = ["poetry-core", "torch", "tensorboard"]
+build-backend = "poetry.core.masonry.api"

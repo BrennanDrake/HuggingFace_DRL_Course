@@ -1,0 +1,38 @@
+/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:293: UserWarning: [33mWARN: Overwriting existing videos at /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/videos/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+episodic return: -33.85364927841076
+episodic return: -37.30640023140646
+episodic return: -163.9729017207777
+episodic return: -59.414963085049145
+episodic return: -167.22177074567125
+episodic return: -108.89153079172902
+episodic return: -36.08506423547573
+episodic return: -301.39991710034525
+episodic return: -297.25879876195626
+episodic return: -103.37275440613183
+episodic return: -418.6175242146401
+episodic return: -74.91507455555825
+episodic return: -61.26055657443823
+episodic return: -46.33910360873014
+episodic return: -112.05041675431892
+episodic return: -63.23213387842618
+episodic return: -161.32871745844392
+episodic return: -115.12819006342161
+episodic return: -74.59850589024916
+episodic return: -135.04496274572392
+episodic return: -88.21676671554084
+episodic return: -152.24149495400502
+episodic return: -108.99021792072413
+episodic return: -127.79951209172611
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 84, in <module>
+    env.close()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'
+Traceback (most recent call last):
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/ppo.py", line 84, in <module>
+    env.close()
+  File "/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'

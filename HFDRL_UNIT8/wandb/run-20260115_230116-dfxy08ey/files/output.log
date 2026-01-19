@@ -1,0 +1,24 @@
+/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/.venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:293: UserWarning: [33mWARN: Overwriting existing videos at /home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/videos/train folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+episodic return: -63.796329678573606
+episodic return: -151.57586832795272
+episodic return: -96.59533323892785
+episodic return: -127.90170276273773
+episodic return: -183.7709273474651
+episodic return: -130.30466900081373
+episodic return: -132.68840617383017
+episodic return: -244.1401475401577
+episodic return: -200.2552124694513
+episodic return: -255.35371930442625
+episodic return: -14.41850237835564
+episodic return: -130.79501319218133
+episodic return: -122.37565146273809
+episodic return: -174.44890297637093
+episodic return: -133.233845452052
+episodic return: -138.29008035354457
+episodic return: -117.15490444008559
+episodic return: -232.32391448376652
+episodic return: -111.41933471553935
+episodic return: -287.806381371334
+episodic return: -112.47230829918682
+episodic return: -122.80011866673611

@@ -1,0 +1,15 @@
+{"time":"2026-01-15T22:59:59.890987382-08:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-15T23:00:00.115734463-08:00","level":"INFO","msg":"stream: created new stream","id":"alk328ff"}
+{"time":"2026-01-15T23:00:00.115800324-08:00","level":"INFO","msg":"handler: started","stream_id":"alk328ff"}
+{"time":"2026-01-15T23:00:00.116022957-08:00","level":"INFO","msg":"stream: started","id":"alk328ff"}
+{"time":"2026-01-15T23:00:00.116055078-08:00","level":"INFO","msg":"writer: started","stream_id":"alk328ff"}
+{"time":"2026-01-15T23:00:00.116056617-08:00","level":"INFO","msg":"sender: started","stream_id":"alk328ff"}
+{"time":"2026-01-15T23:00:00.507907216-08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-01-15T23:00:02.666906204-08:00","level":"INFO","msg":"stream: closing","id":"alk328ff"}
+{"time":"2026-01-15T23:00:10.576277078-08:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-01-15T23:00:10.576340749-08:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546798\")","namespace":""}
+{"time":"2026-01-15T23:00:10.576557612-08:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/home/brennan/Desktop/HuggingFace_DRL_Course/HFDRL_UNIT8/runs/LunarLander-v3__ppo__1__1768546798/events.out.tfevents.1768546800.brennan-dev.59857.0","runPath":"runs/LunarLander-v3__ppo__1__1768546798/events.out.tfevents.1768546800.brennan-dev.59857.0"}
+{"time":"2026-01-15T23:00:11.004741417-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-15T23:00:11.369002647-08:00","level":"INFO","msg":"handler: closed","stream_id":"alk328ff"}
+{"time":"2026-01-15T23:00:11.369099018-08:00","level":"INFO","msg":"sender: closed","stream_id":"alk328ff"}
+{"time":"2026-01-15T23:00:11.369109008-08:00","level":"INFO","msg":"stream: closed","id":"alk328ff"}
